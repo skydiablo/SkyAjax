@@ -1,0 +1,13 @@
+parameters:
+    SkyDiablo.Util.SkyAjax.class: SkyDiablo\Util\SkyAjaxBundle\Service\SkyAjaxService
+    SkyDiablo.Util.SkyAjax.AjaxMethodListener.class: SkyDiablo\Util\SkyAjaxBundle\EventListener\AjaxMethodListener
+
+services:
+    SkyDiablo.Util.SkyAjax:
+        class: %SkyDiablo.Util.SkyAjax.class%
+        arguments: [@service_container]
+
+#    SkyDiablo.Util.SkyAjax.listener.request:
+#        class: %SkyDiablo.Util.SkyAjax.AjaxMethodListener.class%
+#        tags:
+#            - { name: kernel.event_listener, event: kernel.request, method: onKernelRequest }

@@ -1,5 +1,5 @@
 {
-    "name": "SkyDiablo/SkyAjax-Bundle",
+    "name": "skydiablo/skyajax-bundle",
     "description": "Ajax library for standardized communication between client and server.",
     "license": "MIT",
     "authors": [

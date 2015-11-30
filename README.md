@@ -17,7 +17,7 @@ Ajax library for standardized communication between client and server.
 
 If you dont have Composer installed, install it like described here: https://getcomposer.org/download/
 
-1. Add SkyDiablo/SkyAjax-Bundle to your requirements ``$>php composer.phar require SkyDiablo/SkyAjax-Bundle``.
+1. Add skydiablo/skyajax-bundle to your requirements ``$>php composer.phar require skydiablo/skyajax-bundle``.
 2. Use ``$>php composer.phar install`` to download and install. 
 
 ## 2. Application

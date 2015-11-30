@@ -3,14 +3,8 @@
 namespace SkyDiablo\Util\SkyAjaxBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use SkyDiablo\Util\SkyAjaxBundle\Controller\Traits\SkyAjaxControllerTrait;
 
 abstract class SkyAjaxController extends Controller {
-
-    /**
-     * @return \SkyDiablo\Util\SkyAjaxBundle\Service\SkyAjaxService;
-     */
-    protected function getSkyAjax() {
-        return $this->get('SkyDiablo.Util.SkyAjax');
-    }
-
+    use SkyAjaxControllerTrait;
 }
